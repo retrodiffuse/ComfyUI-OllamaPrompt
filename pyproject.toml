@@ -1,0 +1,16 @@
+[project]
+name = "ollamaprompt"
+description = "Refine image prompts with a local Ollama model, preview the result and encode it to conditioning."
+version = "1.0.0"
+license = { file = "LICENSE" }
+classifiers = ["Operating System :: OS Independent"]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/retrodiffuse/ComfyUI-OllamaPrompt"
+"Bug Tracker" = "https://github.com/retrodiffuse/ComfyUI-OllamaPrompt/issues"
+
+# Comfy Registry (https://registry.comfy.org). Bump version above to publish a new release.
+[tool.comfy]
+PublisherId = "retr0gr4d3"
+DisplayName = "Ollama Prompt"
